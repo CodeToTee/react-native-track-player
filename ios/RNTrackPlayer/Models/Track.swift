@@ -9,8 +9,9 @@
 import Foundation
 import MediaPlayer
 import AVFoundation
+import SwiftAudio
 
-class Track: NSObject, AudioItem, TimePitching, Authorizing {
+class Track: NSObject, AudioItem, TimePitching /*, Authorizing */ {
     let id: String
     let url: MediaURL
     
